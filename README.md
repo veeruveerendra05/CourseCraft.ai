@@ -119,4 +119,4 @@ You can launch both the frontend and backend servers simultaneously from the roo
 npm run dev:all
 ```
 *   **Backend** will run on `http://localhost:5000`
-*   **Frontend** will run on `http://localhost:5173](https://coursecraft-ai-brown.vercel.app/`
+*   **Frontend** will run on `https://coursecraft-ai-brown.vercel.app/`
