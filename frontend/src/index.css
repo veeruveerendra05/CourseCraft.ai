@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+  --color-primary: #534AB7;
+  --color-primary-light: #EEEDFE;
+  --color-danger: #A32D2D;
+  --color-danger-bg: #FCEBEB;
+  --color-success: #0F6E56;
+  --color-success-bg: #E1F5EE;
+  --color-warning: #B45309; /* Adjusted for contrast if needed, using standard amber for icons though */
+  --color-warning-bg: #FAEEDA;
+  --color-coral: #C2410C;
+  --color-coral-bg: #FAECE7;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Chatbot Markdown Styles */
+.markdown-prose p {
+  margin-bottom: 0.25rem;
+}
+.markdown-prose p:last-child {
+  margin-bottom: 0;
+}
+.markdown-prose ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+.markdown-prose ol {
+  list-style-type: decimal;
+  padding-left: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+.markdown-prose li {
+  margin-bottom: 0.1rem;
+}
+.markdown-prose strong {
+  font-weight: 700;
+}
+.markdown-prose h1, .markdown-prose h2, .markdown-prose h3 {
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
